@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Festive Hub Store | Festival Products in India</title>
+<style>
+  :root {
+    --cherry: #8B0000;
+    --cherry-dark: #b52b45;
+    --light: #fff5f5;
+    --card-bg: #ffffff;
+    --text: #222;
+  }
+
+  * { box-sizing: border-box; margin:0; padding:0; }
+  body { font-family: "Poppins", "Segoe UI", Arial, sans-serif; color:var(--text); background:#fff; }
+
+  header.site-header {
+    background: var(--cherry);
+    color:white;
+    position: sticky;
+    top:0;
+    z-index:1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  }
+
+  .header-inner {
+    max-width:1200px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    padding:10px 20px;
+  }
+
+  .logo { display:flex; align-items:center; gap:12px; }
+  .logo img { display:block; width:72px; height:72px; object-fit:contain; background:transparent; }
+  .brand-title { color:white; font-size:22px; font-weight:700; line-height:1; }
+
+  nav.main-nav { display:flex; gap:18px; align-items:center; }
+  nav.main-nav a {
+    color:white; font-weight:600; text-decoration:none; padding:8px 6px;
+    transition: color .18s ease;
+  }
+  nav.main-nav a:hover { color:var(--cherry-dark); }
+
+  .hero { background: var(--light); padding: 48px 20px; text-align:center; }
+  .hero h1 { color: var(--cherry); font-size:34px; margin-bottom:12px; }
+  .hero p { max-width:880px; margin:0 auto; color:#333; font-size:16px; }
+
+  .container { max-width:1200px; margin:0 auto; padding:30px 20px; }
+  .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:18px; }
+
+  .card {
+    background: var(--card-bg); border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.06);
+    overflow:hidden; text-align:center; padding-bottom:18px; transition:transform .18s ease, box-shadow .18s ease;
+  }
+  .card:hover { transform:translateY(-6px); box-shadow:0 16px 30px rgba(0,0,0,0.12); }
+
+  /* Scrollable image gallery */
+  .scroll-images {
+    display:flex;
+    overflow-x:auto;
+    gap:6px;
+    padding:4px;
+    height:200px;
+  }
+  .scroll-images img {
+    height:100%;
+    border-radius:8px;
+    flex-shrink:0;
+  }
+
+  .card h3 { color:var(--cherry); margin:14px 12px 6px; }
+  .card p { color:#444; margin:0 12px 10px; font-size:14px; line-height:1.5; }
+  .card .price { color:var(--cherry); font-weight:700; margin-bottom:6px; }
+  .card .note { color:#666; font-size:13px; margin:0 12px 10px; }
+  .btns { display:flex; gap:10px; justify-content:center; margin-top:6px; }
+  .btn {
+    background: var(--cherry); color:#fff; padding:9px 14px; border-radius:8px; border:none;
+    cursor:pointer; font-weight:600; text-decoration:none;
+  }
+  .btn:hover { background:var(--cherry-dark); }
+
+  .extra { background:#fff5f5; padding:28px; border-radius:12px; margin-top:18px; text-align:center; }
+
+  .contact {
+    background:var(--card-bg); border-radius:12px; padding:22px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.06); max-width:720px; margin:18px auto 40px;
+  }
+  .contact input, .contact textarea {
+    width:100%; padding:10px 12px; margin:8px 0;
+    border-radius:8px; border:1px solid #ddd; font-size:14px;
+  }
+  .contact button { width:100%; margin-top:8px; }
+
+  footer.site-footer {
+    background: var(--cherry); color:white; padding:20px 10px; text-align:center;
+  }
+  footer a { color:white; text-decoration:none; margin:0 8px; font-weight:500; transition:color .2s ease; }
+  footer a:hover { color:var(--cherry-dark); }
+
+  @media (max-width:760px){
+    .logo img{width:54px;height:54px;}
+    .hero h1{font-size:24px;}
+    nav.main-nav{gap:10px;font-size:14px;}
+  }
+</style>
+</head>
+
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="logo">
+      <img src="./ChatGPT Image Oct 7, 2025, 02_49_22 PM.png" alt="Festive Hub Store Logo">
+      <div>
+        <div class="brand-title">Festive Hub</div>
+        <div style="font-size:12px;color:rgba(255,255,255,0.9);margin-top:2px;">Store</div>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="#home">Home</a>
+      <a href="#festival">Festival</a>
+      <a href="#coming">Next Festival</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <h1>Celebrate Every Festival with Festive Hub</h1>
+  <p>Christmas essentials — blankets, towels, stars, lights & more. Need something special? Tell us your requirements and we’ll prepare it for you.</p>
+</section>
+
+<main class="container">
+
+  <!-- 🎄 Christmas -->
+  <section id="festival" class="cards">
+    <article class="card">
+      <div class="scroll-images">
+        <img src="./christamas/6587780a-5439-477c-b968-da71ce2634f5.jpeg" alt="Christmas Essentials">
+        <img src="./christamas/5351a5d9-054c-41fd-9531-9d65dfb4fa46.jpeg" alt="Christmas Essentials">
+        <img src="./christamas/86c84e68-2761-4428-bb40-4adc5418c4a8.jpeg" alt="Christmas Essentials">
+        <img src="./christamas/9a7bc19d-147c-4e78-80c3-82a46d753695.jpeg" alt="Christmas Essentials">
+        <img src="./christamas/this is the blanket distribution post which we….jpeg" alt="Christmas Essentials">
+        <img src="./christamas/Crafty Morning - Kids Crafts, Recipes, and DIY….jpeg" alt="Christmas Essentials">
+        <img src="./christamas/DeraSachaSauda million’s followers giving the….jpeg" alt="Christmas Essentials">
+        <img src="./christamas/Red Illustrated Christmas Sale Instagram Post.png" alt="Christmas Essentials">
+        <img src="./christamas/Star_Paper_Christmas.jpeg" alt="Christmas Essentials">
+        <img src="./christamas/The 8 Best Artificial Christmas Trees of 2022 _ by….jpeg" alt="Christmas Essentials">
+      </div>
+      <h3>Christmas</h3>
+      <p>Blankets, towels, stars, lights & other essentials for stores, events, and gift packs.</p>
+      <div class="price">Price: ₹___</div>
+      <div class="note">*Please let us know 10 days in advance for special requirements.</div>
+      <div class="btns">
+        <a class="btn" href="https://wa.me/919704153109" target="_blank">WhatsApp Us</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- 🌾 Sankranti -->
+  <section id="coming" class="cards">
+    <article class="card">
+      <div class="scroll-images">
+        <img src="./sankranthi/91f9cc03-f4d6-4fc8-aef7-fae8f6004dae.jpeg" alt="Sankranti Essentials">
+        <img src="./sankranthi/e6a13053-5adc-477c-a5e6-8a792133d00d.jpeg" alt="Sankranti Essentials">
+        <img src="./sankranthi/Indian Snacks aesthetic Photos, indian snacks….jpeg" alt="Sankranti Essentials">
+        <img src="./sankranthi/Peanut & coconut ladoo.jpeg" alt="Sankranti Essentials">
+        <img src="./sankranthi/Pua pitha recipe _ Meetha pua _ Sweet pua _ Poa….jpeg" alt="Sankranti Essentials">
+        <img src="./sankranthi/Ribbon Pakoda Recipe, Ribbon Murukku recipe.jpeg" alt="Sankranti Essentials">
+        <img src="./sankranthi/verkadalai murukku recipe.jpeg" alt="Sankranti Essentials">
+      </div>
+      <h3>Sankranti / Bhoghi (Coming Soon)</h3>
+      <p>Pindi Vantalu, jackets, sarees, and maggam work blouses — ready for festivals.</p>
+      <div class="price">Contact for pricing</div>
+      <div class="note">*Please let us know 10 days in advance for special requirements.</div>
+      <div class="btns">
+        <a class="btn" href="https://wa.me/919704153109" target="_blank">WhatsApp Us</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- 👗 Sarees + Blouses -->
+  <section id="products" class="cards">
+    <article class="card">
+      <div class="scroll-images">
+        <img src="./sarees/___BANARASI PLAIN CRUSHED TISSUE SILK dyable….jpeg" alt="Sarees">
+        <img src="./sarees/_New Lunch_ _Fabric_   PREMIUM BANARASI soft….jpeg" alt="Sarees">
+        <img src="./sarees/_price 1150 free shipping__Janhvi Kapoor New….jpeg" alt="Sarees">
+        <img src="./sarees/Designer Saree _ 1099 _- Prepaid Only _ Order on….jpeg" alt="Sarees">
+        <img src="./sarees/Price_- 4500_-  Semi Kanchipattu tissue silk….jpeg" alt="Sarees">
+        <img src="./sarees/Shop Bridal Sarees, Bright Yellow, Gold and more….jpeg" alt="Sarees">
+        <img src="./sarees/Silk Mark Certified - Pure Tissue Bridal Silk….jpeg" alt="Sarees">
+      </div>
+      <h3>Sarees</h3>
+      <p>Budget-friendly sarees ideal for gifting and retail.</p>
+      <div class="price">Price: ₹___</div>
+      <div class="note">*Please allow 10 days for special orders.</div>
+      <div class="btns">
+        <a class="btn" href="https://wa.me/919704153109" target="_blank">WhatsApp Us</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="scroll-images">
+        <img src="./maggam blouses/282a32c3-1b63-444b-bad8-bc1e7954fa08.jpeg" alt="Blouse 1">
+        <img src="./maggam blouses/63354bbb-3eff-46a0-bb29-03316668d040.jpeg" alt="Blouse 2">
+        <img src="./maggam blouses/8101a797-55fd-43ad-97e7-1b2368431258.jpeg" alt="Blouse 3">
+        <img src="./maggam blouses/c435b58b-390c-476f-b050-2b2c09db17a9.jpeg" alt="Blouse 4">
+      </div>
+      <h3>Blouses (incl. Maggam work)</h3>
+      <p>Plain and maggam-work blouses at wholesale-friendly prices.</p>
+      <div class="price">Price: ₹___</div>
+      <div class="note">*Please allow 10 days for special orders.</div>
+      <div class="btns">
+        <a class="btn" href="https://wa.me/919704153109" target="_blank">WhatsApp Us</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="extra">
+    <h3>Need anything else for Festivals, Functions, or Parties?</h3>
+    <p>If you need custom items or special packaging for any festival, tell us — we’ll arrange it. Contact us for quotes and lead times.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 style="text-align:center;color:var(--cherry);">Send Your Requirements</h2>
+    <form action="https://formsubmit.co/info@festivehubstore.com" method="POST">
+      <input name="name" type="text" placeholder="Your Name" required>
+      <!-- <input name="email" type="email" placeholder="Your Email" required> -->
+      <input name="phone" type="text" placeholder="Phone Number" required>
+      <input name="festival" type="text" placeholder="Festival (e.g., Function, marriage, party, Christmas, Sankranti)" required>
+      <textarea name="requirements" rows="5" placeholder="Your requirements (items, qty, delivery city...)" required></textarea>
+      <button type="submit">Submit Requirement</button>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>© 2025 Festive Hub Store</div>
+  <div style="margin-top:6px;">
+    <a href="mailto:info@festivehubstore.com">info@festivehubstore.com</a> |
+    <a href="https://wa.me/919704153109" target="_blank">+91-9704153109</a>
+  </div>
+  <div style="margin-top:10px;">
+    <a href="https://wa.me/919704153109" target="_blank">WhatsApp</a> |
+    <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+  </div>
+</footer>
+
+</body>
+</html>
+
